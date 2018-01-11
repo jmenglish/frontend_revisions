@@ -1,0 +1,218 @@
+/*box-sizing to border-box change*/
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+/*website body*/
+body {
+    background-color: black;
+    color: #3a3a3a;
+    font-family: sans-serif;
+    font-size: 16px;
+    height: 100%
+    width: 100%
+}
+
+/*mobile app body*/
+.container {
+    background-color: #c1c1c1;
+    margin: auto;
+    height: 30%;
+    width: 52%;
+}
+
+/*Images*/
+.navbar {
+  background-image: url(/images/navbar.png);
+  background-position: center;
+  display: block;
+
+}
+
+/*NavBar Content*/
+nav {
+    padding: 5px;
+    background-color: #f4f4f4;
+    height: 15%;
+    width: 100%;
+    display: block;
+}
+
+.arrow-left {
+    color: #3a3a3a;
+    margin: 0px;
+    padding-top: 5px;
+    padding-left: 10px;
+    height: 0px;
+    width: 0px;
+}
+
+/*Map Image*/
+.busmap {
+  background-image: url(/images/busmap.png);
+  background-position: center;
+  display: block;
+
+}
+
+/*bus arrival bar*/
+header {
+    background-color: #E0E0E0;
+    color: #4A4A4A;
+    font-size: .90em;
+    font-weight: 550;
+    letter-spacing: .08em;
+    margin: auto;
+    padding: 8px;
+    height: 10%;
+    width: 100%;
+}
+
+/*BusRoute List*/
+main {
+  background-color: #E0E0E0;
+  color: #4A4A4A;
+  font-family: sans-serif;
+  font-size: .75em;
+  margin: 0 auto 0 auto;
+  height: 375px;
+  width: 360px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+
+section {
+  background-color: white;
+  border-bottom: 1px solid #E0E0E0;
+  padding: 5px;
+  height: 20%;
+  width: 100%;
+  display: block;
+}
+
+section:hover {
+  background-color: #b3b3b3;
+  cursor: pointer;
+}
+
+
+/*buslist content*/
+.busicon {
+  padding: 20px 0 0 10px;
+  margin: 0;
+  float: left;
+  color: #4A4A4A;
+}
+
+.busnumber {
+  padding: 30px 0 0 10px;
+  margin: auto;
+  float: left;
+}
+
+.destination1 {
+  padding: 15px 0 0 32px;
+  margin: 0;
+  float: left;
+  text-align: left;
+}
+
+.destination2 {
+  padding: 15px 0 0 26px;
+  margin: 0;
+  float: left;
+  text-align: left;
+}
+
+.destination3 {
+  padding: 15px 0 0 26px;
+  margin: 0;
+  float: left;
+  text-align: left;
+}
+
+.destination4 {
+  padding: 20px 0 0 20px;
+  margin: 0;
+  float: left;
+  text-align: left;
+}
+
+.destination5{
+  padding: 12px 0 0 20px;
+  margin: 0;
+  float: left;
+  text-align: left;
+}
+
+.arrivaltime {
+  padding: 15px 20px 0 0;
+  margin: 0;
+  float: right;
+  text-align: left;
+}
+
+.arrow-right {
+    color: black;
+    margin: 0px;
+    padding: 20px 25px 0 0;
+    height: 0px;
+    width: 0px;
+    float: right;
+}
+
+.standout {
+  color: red;
+}
+
+/*Fonts*/
+/*Washintong and State*/
+h1 {
+
+  font-size: 1.3em;
+  font-weight: 700;
+  margin: 0px;
+  padding: 5px;
+  text-align: center;
+}
+
+/*arrivaltime - Bus Mins*/
+h2 {
+
+font-size: 1.1em;
+font-weight: 550;
+letter-spacing: .07em;
+line-height: 1.2em;
+margin: auto;
+padding: 0;
+}
+
+/*Bus Number & destination - first line*/
+h3 {
+font-size: 1.1em;
+font-weight: 550;
+letter-spacing: .07em;
+line-height: .4em;
+margin: auto;
+padding:0;
+}
+
+/*Bus destination - second line*/
+h4 {
+font-size: 1.1em;
+font-weight: 400;
+letter-spacing: .09em;
+line-height: .4em;
+margin: auto;
+padding: 0;
+}
+
+/*busbar*/
+h5 {
+font-size: .90em;
+font-weight: 550;
+letter-spacing: .08em;
+margin: auto;
+padding-bottom: 5px;
+}
